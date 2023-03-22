@@ -57,4 +57,28 @@ span {
     color:red;
 }
 
+.headerdiv {
+    background-color: orange;
+    width: 100%;
+    height:50px;
+}
+
+.headerdiv2{
+    display:flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    width:65%;
+    margin:auto;
+    border: 5px solid black;
+    min-width: 380px;
+    align-items: center;
+    min-height: 50px;
+}
+
+.intdiv{
+    margin-left:10px;
+    margin-right:10px;
+    color:white;
+}
+
 
