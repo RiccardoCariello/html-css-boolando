@@ -1,0 +1,46 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+
+.title-stat {
+    text-align: center;
+    margin: auto;
+    width:80%;
+    margin-bottom:30px;
+    margin-top:50px;
+    
+}
+
+.flex1 {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width:60%;
+    margin:auto;
+    border: 5px solid black;
+}
+
+
+.flex2 {
+    border: 5px solid green;
+    margin:10px;
+    width:360px;
+    height:580px;
+    margin-bottom:30px;
+    
+}
+
+.padding {
+    padding:10px;
+}
+
+h2 {
+    font-size: small;
+}
+
+span {
+    font-size: smaller;
+}
