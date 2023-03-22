@@ -18,14 +18,16 @@
     display:flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    width:60%;
+    width:65%;
     margin:auto;
     border: 5px solid black;
+    min-width: 380px;
+    align-content: center;
 }
 
 
 .flex2 {
-    border: 5px solid green;
+    /*border: 5px solid green;*/
     margin:10px;
     width:360px;
     height:580px;
@@ -38,9 +40,21 @@
 }
 
 h2 {
-    font-size: small;
+    font-size: medium;
 }
 
 span {
     font-size: smaller;
 }
+
+.lgrey{
+    
+    font-size: smaller;    
+    color:rgb(85, 85, 85);
+}
+
+.discount{
+    color:red;
+}
+
+
