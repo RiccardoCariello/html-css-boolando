@@ -2,6 +2,8 @@
     margin:0px;
     padding:0px;
     box-sizing: border-box;
+    font-family: Lucida Bright,Georgia,serif; 
+    
 }
 
 
@@ -20,16 +22,16 @@
     justify-content: space-between;
     width:65%;
     margin:auto;
-    border: 5px solid black;
+    
     min-width: 380px;
     align-content: center;
 }
 
 
 .flex2 {
-    /*border: 5px solid green;*/
+    border: 2px solid rgb(231, 231, 231);
     margin:10px;
-    width:360px;
+    width:354px;
     height:580px;
     margin-bottom:30px;
     
@@ -69,7 +71,7 @@ span {
     justify-content: space-between;
     width:65%;
     margin:auto;
-    border: 5px solid black;
+    
     min-width: 380px;
     align-items: center;
     min-height: 50px;
@@ -79,6 +81,25 @@ span {
     margin-left:10px;
     margin-right:10px;
     color:white;
+}
+
+.footerdiv {
+    background-color: black;
+    width: 100%;
+    height:80px;
+}
+
+.footerdiv2{
+    display:flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    width:65%;
+    margin:auto;
+    
+    min-width: 380px;
+    align-items: center;
+    min-height: 80px;
+    font-size: smaller;
 }
 
 
